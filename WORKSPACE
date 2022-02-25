@@ -4,7 +4,7 @@ load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 RULES_SWIFT_VERSION = "0.26.0"
-# RULES_SWIFT_VERSION = '0.24.0'
+# RULES_SWIFT_VERSION = '0.24.0' # Use `0.24.0` can fix this bug
 
 http_archive(
     name = "build_bazel_rules_swift",

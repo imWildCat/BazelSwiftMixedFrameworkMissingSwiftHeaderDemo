@@ -1,6 +1,6 @@
 # BazelSwiftMixedFrameworkMissingSwiftHeaderDemo
 
-`generates_header=True` does not work anymore.
+`generates_header=True` does not work anymore, missing `MixedLangFramework-Swift.h` in the build output.
 
 ## With `0.24.0`
 
